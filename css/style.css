@@ -1,0 +1,1598 @@
+
+body {
+    margin: 0;
+}
+
+.wrap {
+    width: 100%;
+    background-color: #212529;
+}
+
+.main-container {
+    max-width: 1440px;
+    background-color: #212529;
+    margin: 0 auto;
+    padding-top: 17px;
+}
+
+
+
+/* -------------NAVIGATION---------- */
+
+
+
+.site-navigation {
+    width: 93%;
+    height: 66px;
+    margin: 0 auto 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 66px;
+}
+
+.site-navigation-nav {
+    width: 32%;
+}
+
+.site-navigation-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.site-navigation-nav li {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 27px;
+    line-height: 100%;
+    list-style-type: none;
+}
+
+.site-navigation-nav a {
+    text-decoration: none;
+}
+
+.site-navigation-nav li:hover {
+    color: #FFB742;
+    cursor: pointer;
+}
+
+.site-navigation-nav li:nth-of-type(1) {
+    margin-left: 10px;
+}
+
+.site-navigation-nav li:nth-of-type(5) {
+    margin-right: 10px;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button-hire-me {
+    width: 9%;
+    height: 54px;
+    background-color: #FFB742;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.button-hire-me a {
+    text-decoration: none;
+}
+
+.button-hire-me span {
+    color: #212529;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    line-height: 100%;
+}
+
+
+
+
+/* --------------HEADER------------------- */
+
+
+
+
+header {
+    width: 67%;
+    height: 460px;
+    margin: 0 auto;
+    margin-bottom: 136px;
+    text-align: center;
+}
+
+header h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 50.75px;
+    line-height: 131%;
+    color: #ffff;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.name-developer {
+    color: #FFB742;
+    text-decoration: underline;
+}
+
+header h1 {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 90.85px;
+    line-height: 156%;
+    margin: 0;
+    margin-bottom: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+}
+
+header h3 {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50.75px;
+    line-height: 175%;
+    margin: 0;
+    margin-bottom: 22px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-transform: capitalize;
+}
+
+
+
+
+/* ----------------SECTION---------------- */
+
+
+
+
+section {
+    width: 100%;
+    height: max-content;
+}
+
+.level {
+    width: 90%;
+    height: 120px;
+    background-color: #212529;
+    margin: 0 auto 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.level-card {
+    width: 32%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #292B2E;
+}
+
+.level-card:hover {
+    cursor: pointer;
+}
+
+.card-content {
+    width: 38%;
+    height: 70px;
+    text-align: center;
+}
+
+.quantity {
+    color: #FFB742;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    line-height: 104%;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.quantity-description {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 31px;
+    line-height: 159.49%;
+    margin: 0;
+}
+
+.level-card:hover {
+    background: linear-gradient(94.3deg, #FFB742 0%, rgba(255, 123, 66, 0.76) 99.33%);
+}
+
+.level-card:hover > div > p {
+    color: #212529;
+}
+
+
+
+/* -----------------ABOUT-ME------------ */
+
+
+
+
+.about-me {
+    width: 96%;
+    height: 630px;
+    margin-left: 5px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-photo {
+    width: 45%;
+    height: 596px;
+    margin-top: 34px;
+}
+
+.about-me-content {
+    width: 49%;
+    height: 397px;
+}
+
+.button-who-i-am {
+    width: 22%;
+    height: 42px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.button-who-i-am p {
+    text-transform: uppercase;
+    color: #FFB742;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    line-height: 100%;
+    margin: 0;
+    padding-top: 11px;
+}
+
+.about-me-title {
+    width: 45%;
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.about-me-title p {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 30px;
+    line-height: 53%;
+    margin: 0;
+}
+
+.about-me-information {
+    width: 98.5%;
+    height: 177px;
+    margin-left: 10px;
+    margin-bottom: 54px;
+}
+
+.about-me-information p {
+    margin: 0;
+    color: #D4D4D4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button-hire-me-about-me {
+    width: 21.5%;
+    height: 54px;
+    background-color: #FFB742;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.button-hire-me-about-me a {
+    text-decoration: none;
+}
+
+.button-hire-me-about-me span {
+    color: #212529;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    line-height: 111%;
+    margin: 0;
+    padding-top: 17.5px;
+}
+
+
+
+
+/* --------------SKILLS------------- */
+
+
+
+
+
+.skills {
+    width: 93%;
+    height: 358px;
+    margin: 0 auto 136px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-content {
+    width: 51%;
+    height: 358px;
+}
+
+.button-my-skills {
+    width: 22%;
+    height: 42px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.button-my-skills p {
+    text-transform: uppercase;
+    color: #FFB742;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    line-height: 100%;
+    margin: 0;
+    padding-top: 11px;
+}
+
+.skills-title {
+    width: 76%;
+    height: 110px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.skills-title h2 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    line-height: 100%;
+    padding-top: 7px;
+}
+
+.skills-description {
+    width: 98.5%;
+    height: 59px;
+    margin-left: 10px;
+    margin-bottom: 62px;
+}
+
+.skills-description p {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    line-height: 125%;
+    color: #FFFFFF;
+    padding-top: 9.5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button-hire-me-skills a {
+    text-decoration: none;
+}
+
+.button-hire-me-skills {
+    width: 22%;
+    height: 54px;
+    background-color: #FFB742;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.button-hire-me-skills span {
+    margin: 0;
+    color: #212529;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    line-height: 111%;
+    padding-top: 17.5px;
+}
+
+.skills-icons {
+    width: 42%;
+    height: 176px;
+}
+
+.skills-icons-row1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-icons-row2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-icon {
+    width: 14.2%;
+    height: 80px;
+    background-color: #383E45;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.skill-icon:hover {
+    background: rgba(255, 183, 66, 0.5);
+}
+
+.skill-icon img {
+    padding-top: 16px;
+}
+
+
+
+/* ------------FEATURED-WORKS------- */
+
+
+
+
+
+.featured-works {
+    width: 86%;
+    height: 1038px;
+    margin: 0 auto 136px;
+}
+
+.button-my-works {
+    width: 13%;
+    height: 42px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button-my-works p {
+    text-transform: uppercase;
+    color: #FFB742;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    line-height: 100%;
+    margin: 0;
+    padding-top: 11px;
+}
+
+.featured-works-title {
+    width: 40.5%;
+    height: 56px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.featured-works-title h2 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    line-height: 100%;
+    padding-top: 7px;
+}
+
+.featured-works-navigation {
+    width: 53%;
+    height: 40px;
+    margin: 0 auto 50px;
+}
+
+.featured-works-navigation ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-works-navigation ul li {
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    line-height: 125%;
+    border: 1px solid #212529;
+    padding: 9px 20px 9px 20px;
+}
+
+.featured-works-navigation ul li:hover {
+    background: #FFB742;
+    color: #212529;
+    cursor: pointer;
+}
+
+.featured-works-images {
+    width: 100%;
+    height: 820px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-works-column1 {
+    width: 31.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.column-row1 {
+    width: 100%;
+    height: 495.71px;
+}
+
+.column-row1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.column-row2 {
+    width: 100%;
+    height: 292.5px;
+}
+
+.column-row2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.featured-works-column2 {
+    width: 31.6%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.featured-works-column3 {
+    width: 31.6%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* --------------REVIEWS------------- */
+
+
+
+
+
+.reviews {
+    width: 85%;
+    height: 642px;
+    margin: 0 auto 271px;
+}
+
+.button-testimonials {
+    width: 16%;
+    height: 42px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 auto 8px;
+}
+
+.button-testimonials p {
+    text-transform: uppercase;
+    color: #FFB742;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    line-height: 100%;
+    margin: 0;
+    padding-top: 11px;
+}
+
+.reviews-title {
+    width: 35%;
+    height: 46px;
+    margin: 0 auto 90px;
+    text-align: center;
+}
+
+.reviews-title h2 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    line-height: 100%;
+}
+
+.reviews-customers {
+    width: 100%;
+    height: 455.11px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.customers-card {
+    width: 31.1%;
+    height: 455.11px;
+}
+
+.customers-card img {
+    width: 100%;
+}
+
+
+
+
+/* ---------------FOOTER------------- */
+
+
+
+
+
+.footer-wrap {
+    width: 100%;
+    background-color: #1C1C1C;;
+}
+
+
+footer {
+    width: 100%;
+    height: 470px;
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer-about-user {
+    width: 20%;
+    height: 130px;
+    margin-left: 50px;
+    margin-top: 148px;
+}
+
+.footer-about-user h3 {
+    color: #FFB742;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 32px;
+    line-height: 100%;
+    margin: 0 auto 30px;
+}
+
+.footer-about-user span {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    line-height: 173%;
+    color: white;
+    margin: 0;
+}
+
+.footer-about-user a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-about-user a span:hover {
+    color: #FFB742;
+    cursor: pointer;
+}
+
+.useful-links {
+    width: 9.7%;
+    height: 230px;
+    margin-top: 148px;
+}
+
+.useful-links h4 {
+    margin: 0 auto 12px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    line-height: 126%;
+    color: #FFFFFF;
+}
+
+.useful-links ul {
+    margin: 0;
+    padding: 0;
+}
+
+.useful-links ul a {
+    text-decoration: none;
+}
+
+.useful-links ul li {
+    list-style-type: none;
+    color: #7B7B7B;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    line-height: 173%;
+}
+
+.useful-links ul li:hover {
+    color: #FFB742;
+    cursor: pointer;
+}
+
+.social-media {
+    width: 10%;
+    height: 233px;
+    margin-top: 148px;
+}
+
+.social-media h4 {
+    margin: 0 auto 12px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    line-height: 126%;
+    color: #FFFFFF;
+}
+
+.social-media ul {
+    margin: 0;
+    padding: 0;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+.social-media ul li {
+    list-style-type: none;
+    color: #7B7B7B;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    line-height: 173%;
+}
+
+.social-media ul li:hover {
+    color: #FFB742;
+    cursor: pointer;
+}
+
+.newsletter {
+    width: 22%;
+    height: 114px;
+    margin-right: 50px;
+    margin-top: 148px;
+}
+
+.newsletter h3 {
+    margin: 0 auto 8px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    line-height: 126%;
+    color: #FFFFFF;
+}
+
+.newsletter p {
+    list-style-type: none;
+    color: #7B7B7B;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    line-height: 173%;
+    margin: 0;
+}
+
+.newsletter p:hover {
+    color: #FFB742;
+    cursor: pointer;
+}
+
+.newsletter p a {
+    text-decoration: none;
+    color: #7B7B7B;
+}
+
+
+
+
+
+
+/* ------------------MEDIA QUERIES----------------------- */
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    
+    .main-container {
+        max-width: 1140px;
+        width: 100%;
+    }
+
+    .site-navigation-nav {
+        width: 45%;
+    }
+
+    .button-hire-me {
+        width: 12%;
+    }
+
+/* -----------SECTION-------------------- */
+
+
+    .card-content {
+        width: 55%;
+    }
+
+    .quantity {
+        font-size: 30px;
+    }
+
+    .level {
+        margin: 1px auto 120px;
+    }
+
+    .my-photo {
+        width: 50%;
+    }
+
+    .my-photo img {
+        width: 100%;
+    }
+
+    .about-me-content {
+        width: 50%;
+    }
+
+    .about-me-title {
+        width: 45%;
+    }
+
+    .about-me-information {
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+    .skills-icons {
+        width: 48%;
+        height: 147px;
+    }
+
+    .skill-icon {
+        height: 63px;
+    }
+
+    .skill-icon img {
+        padding-top: 8px;
+    }
+
+    .skills {
+        margin: 0 auto 70px;
+    }
+
+
+/* -----------FEATURED WORKS-------- */
+
+
+    .featured-works {
+        height: auto;
+        margin: 0 auto 70px;
+    }
+
+    .button-my-works {
+        width: 17%;
+    }
+
+    .featured-works-title {
+        width: 40.5%;
+        margin: 0 auto 20px;
+    }
+
+    .featured-works-navigation {
+        margin: 0 auto 30px;
+        height: auto;
+        width: 70%;
+    }
+
+    .featured-works-images {
+        height: auto;
+    }
+
+    .column-row1 {
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+    .column-row2 {
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+
+/* ----------------REVIEWS------------------------ */
+
+
+    .reviews {
+        height: auto;
+        margin: 0 auto 150px;
+    }
+
+    .button-testimonials {
+        width: 22%;
+    }
+
+    .reviews-title {
+        width: 45%;
+        margin: 0 auto 70px;
+    }
+
+    .reviews-customers {
+        height: auto;
+    }
+
+    .customers-card {
+        height: auto;
+    }
+
+    .customers-card img {
+        width: 100%;
+    }
+
+
+    /* -------------------FOOTER----------------------- */
+
+
+    footer {
+        height: auto;
+        width: 100%;
+    }
+
+    .footer-about-user {
+        margin-top: 100px;
+    }
+
+    .useful-links {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .social-media {
+        margin-top: 100px;
+    }
+
+    .newsletter {
+        margin-top: 100px;
+    }
+
+}
+
+
+
+
+
+/* ----------------992px--------------------- */
+
+
+
+
+
+@media screen and (max-width: 992px) {
+
+    .main-container {
+        max-width: 960px;
+        width: 100%;
+    }
+
+    .site-navigation-nav {
+        width: 58%;
+    }
+
+    .button-hire-me {
+        width: 14%;
+    }
+
+
+    /* --------------SECTION--------------- */
+
+
+    .button-who-i-am {
+        width: 35%;
+    }
+
+    .about-me-title {
+        width: 57%;
+    }
+
+    .button-hire-me-about-me {
+        width: 28.5%;
+    }
+
+    /* ----------------SKILLS-------------- */
+
+
+    .button-my-skills {
+        width: 30%;
+    }
+
+    .skills-title {
+        width: 90%
+    }
+
+    .skills-title h2 {
+        font-size: 46px;
+    }
+
+    .button-hire-me-skills {
+        width: 28%;
+    }
+
+
+    /* ----------FEATURED-WORKS------------ */
+
+
+
+    .button-my-works {
+        width: 20%;
+    }
+
+    .featured-works-title {
+        width: 51.5%;
+    }
+
+    .featured-works-navigation {
+        width: 90%;
+    }
+}
+
+
+/* -------------768px---------------- */
+
+
+
+@media screen and (max-width: 768px) {
+
+    .main-container {
+        max-width: 720px;
+        width: 100%;
+    }
+
+
+/* ----------------NAVIGATION------------- */
+
+
+    .site-navigation {
+        margin: 0 auto 70px;
+    }
+
+    .site-navigation-nav {
+        width: 64%;
+    }
+
+    .site-navigation-nav li {
+        font-size: 17px;
+    }
+
+    .button-hire-me {
+        width: 17%;
+        height: 52px;
+    }
+
+    .button-hire-me p {
+        font-size: 17px;
+    }
+
+
+/* --------------HEADER-------------------- */
+
+
+    header {
+        width: 77%;
+        height: auto;
+        margin-bottom: 70px;
+    }
+
+    header h2 {
+        font-size: 30px;
+    }
+
+    header h1 {
+        font-size: 42px;
+    }
+
+
+    /* ---------------SECTION-------------- */
+
+
+
+    .level {
+        display: block;
+        margin: 1px auto 70px;
+        height: auto;
+    }
+
+    .level-card {
+        width: 65%;
+        margin: 0 auto 20px;
+    }
+
+    .about-me {
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .about-me-content {
+        height: auto;
+    }
+
+    .button-who-i-am {
+        width: 45%;
+    }
+
+    .about-me-title {
+        width: 77%;
+        margin-bottom: 25px;
+    }
+
+    .about-me-title p {
+        font-size: 44px;
+    }
+
+    .button-hire-me-about-me {
+        width: 35.5%;
+    }
+
+
+    /* ------------SKILLS--------------- */
+
+
+
+    .skills {
+        height: auto;
+        display: block;
+    }
+
+    .skills-content {
+        width: 90%;
+        height: auto;
+        margin: 0 auto 25px;
+    }
+
+    .button-my-skills {
+        width: 27%;
+    }
+
+    .button-my-skills p {
+        font-size: 18px;
+        padding-top: 13px;
+    }
+
+    .skills-title {
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .skills-title h2 {
+        font-size: 40px;
+    }
+
+    .button-hire-me-skills {
+        width: 23%;
+    }
+
+    .skills-icons {
+        width: 83%;
+        margin: 0 auto;
+    }
+
+    .skills-description {
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+
+    /* --------------FEATURED-WORKS----------- */
+
+
+
+    .featured-works {
+        margin: 0 auto 50px;
+        width: 90%;
+    }
+
+    .button-my-works {
+        width: 27%;
+    }
+
+    .button-my-works p {
+        font-size: 18px;
+        padding-top: 12px;
+    }
+
+    .featured-works-title {
+        width: 54.5%;
+        margin: 0 auto 15px;
+    }
+
+    .featured-works-title h2 {
+        font-size: 40px;
+    }
+
+    .featured-works-navigation {
+        width: 100%;
+    }
+
+    .featured-works-navigation ul {
+        text-align: center;
+    }
+
+
+
+    /* -------------REVIEWS---------------- */
+
+
+
+    .reviews {
+        margin: 0 auto 100px;
+    }
+
+    .button-testimonials {
+        width: 35%;
+    }
+
+    .button-testimonials p {
+        font-size: 18px;
+        padding-top: 12px;
+    }
+
+    .reviews-title {
+        width: 75%;
+        margin: 0 auto 35px;
+        height: auto;
+    }
+
+
+    /* ---------------FOOTER--------------- */
+
+
+
+    .footer-about-user {
+        margin-left: 25px;
+    }
+
+    .footer-about-user h3 {
+        font-size: 22px;
+        margin: 0 auto 25px;
+    }
+
+    .footer-about-user p {
+        font-size: 18px;
+    }
+
+    .newsletter {
+        margin-right: 25px;
+    }
+
+    .newsletter h3 {
+        margin: 0 auto 40px;
+    }
+
+}
+
+
+
+
+
+
+/* ---------------576px--------------- */
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    .main-container {
+        min-width: 360px;
+        width: 100%;
+    }
+
+    .site-navigation {
+        margin: 0 auto 70px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        display: inline-block;
+        width: 27%;
+        align-self: flex-start;
+        margin-bottom: 10px;
+        height: auto;
+        width: 17%;
+        margin-bottom: 4px;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .site-navigation-nav {
+        width: 100%;
+        order: 2;
+    }
+
+    .button-hire-me {
+        display: none;
+    }
+
+
+    /* -----------HEADER---------------- */
+
+
+    header {
+        width: 90%;
+        margin-bottom: 55px;
+    }
+
+    header h1 {
+        margin-bottom: 15px;
+        font-size: 35px;
+    }
+
+
+    /* ------------SECTION------------------- */
+
+
+
+    .level {
+        margin: 1px auto 60px;
+    }
+
+    .level-card {
+        width: 90%;
+    }
+
+    .about-me {
+        display: block;
+    }
+
+    .my-photo {
+        height: auto;
+        width: 90%;
+    }
+
+    .about-me-content {
+        margin: 0px auto;
+        width: 90%;
+    }
+
+    .about-me-information {
+        margin-bottom: 20px;
+    }
+
+
+    /* ---------------SKILLS----------- */
+
+
+
+    .skills {
+        margin: 0 auto 60px;
+    }
+
+    .skills-icons {
+        width: 95%;
+    }
+
+    .button-my-skills {
+        width: 37%;
+    }
+
+    .skill-icon {
+        height: 62px;
+        width: 15.2%;
+        margin-top: 6px;
+    }
+
+    .button-hire-me-skills {
+        width: 35%;
+    }
+
+
+/* -------------FEATURED-WORKS------------ */
+
+
+
+    .button-my-works {
+        width: 37%;
+    }
+
+    .featured-works-title {
+        width: 76.5%;
+        margin: 0 auto 5px;
+        text-align: center;
+    }
+
+    .featured-works-title h2 {
+        font-size: 35px;
+    }
+
+    .featured-works-navigation ul {
+        display: block;
+    }
+
+    .featured-works-images {
+        display: block;
+    }
+
+    .featured-works-column1 {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .featured-works-column2 {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .featured-works-column3 {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+
+
+    /* -----------REVIEWS------------------ */
+
+
+
+    .reviews {
+        margin: 0 auto 70px;
+    }
+
+    .button-testimonials {
+        width: 50%;
+    }
+
+    .reviews-title {
+        width: 100%;
+    }
+
+    .reviews-title h2 {
+        font-size: 33px;
+    }
+
+    .reviews-customers {
+        display: block;
+    }
+
+    .customers-card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+
+
+    /* ------------FOOTER----------- */
+
+
+
+    footer {
+        display: block;
+    }
+
+    .footer-about-user {
+        margin: 0px auto;
+        width: 80%;
+        height: auto;
+    }
+
+    .footer-about-user h3 {
+        margin: 0 auto 15px;
+        padding-top: 30px;
+    }
+
+    .useful-links {
+        margin: 20px auto;
+        width: 80%;
+        height: auto;
+    }
+
+    .social-media {
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .newsletter {
+        margin: 20px auto 0;
+        padding-bottom: 20px;
+        width: 80%;
+        height: auto;
+    }
+
+    .newsletter h3 {
+        margin: 0 auto 15px;
+    }
+
+    .newsletter p a {
+        text-decoration: none;
+        color: #7B7B7B;
+    }
+
+}
